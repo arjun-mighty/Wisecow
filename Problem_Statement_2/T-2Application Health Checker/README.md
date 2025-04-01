@@ -1,12 +1,10 @@
-# Application Health Monitoring Tools
+# Application Health Checker
 
-This repository contains scripts for monitoring application health and system performance, created as part of the Accuknox DevOps assessment.
-
+This repository contains scripts for application health checker 
 ## Contents
 
 - [app-health-checker.py](#application-health-checker) - Script to check and monitor application health via HTTP status codes
-- [shm.py](#system-health-monitor) - System health monitoring script that tracks CPU, memory, and disk usage
-- [system_health.log](#logs) - Log file containing system health monitoring results
+
 
 ## Application Health Checker
 
@@ -14,10 +12,8 @@ This repository contains scripts for monitoring application health and system pe
 
 ### Features
 
-- Continuously monitors application health with configurable intervals
 - Supports both GET and POST HTTP methods
 - Handles various connection errors with custom status codes
-- Provides clear up/down status reporting
 
 ### Custom HTTP Status Codes
 
