@@ -30,11 +30,6 @@ python3 app-health-checker.py
 
 By default, the script monitors a local application at `http://localhost:8000/` with a 4-second interval between checks.
 
-### Configuration
-
-You can modify the following variables in the `main()` function:
-- `url`: The base URL of the application to monitor
-- `interval`: Time between health checks (in seconds)
 
 ### Dependencies
 
@@ -52,7 +47,3 @@ Inorder to test the script please run the crud-app. Find more details on how to 
 
 To test the script, you'll need to run the CRUD application. See `crud-app/readme.md` for details on how to set up and run the test application.
 
-
-## License
-
-[MIT License](LICENSE)
